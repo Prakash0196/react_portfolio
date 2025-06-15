@@ -1,0 +1,164 @@
+[
+  
+  
+  {
+  "id": "popup12",
+  "title": "MERN Admin Panel",
+  "image": "./education-site.webp",
+  "about": "A full-stack MERN application with secure admin features and user management.",
+  "link": "https://client-d2q3.onrender.com/",
+  "features": [
+    "User Authentication – Secure login and registration using JWT and bcrypt.",
+    "Admin Dashboard – View, update, and delete users, services, and contact messages.",
+    "Contact Form – Users can send messages directly through a dynamic contact page.",
+    "Authorization Middleware – Role-based route protection for admin and regular users.",
+    "Responsive UI – Clean and interactive design built with React and Tailwind CSS.",
+    "MongoDB Integration – Fully connected backend with data persistence and validation."
+  ]
+},
+{
+    "id": "popup7",
+    "title": "Car Rental",
+    "image": "./car-rental.webp",
+    "about": "A car rental website with an easy-to-use interface.",
+    "link": "https://luxurious-car-rental.netlify.app",
+    "features": [
+      "Smart Search – Quickly find any Pokémon by name, type, or ID with instant results.",
+      "Detailed Profiles – Explore each Pokémon’s stats, abilities, types, evolutions, and more.",
+      "Clean UI – Enjoy a modern, user-friendly interface designed for smooth navigation.",
+      "Responsive Design – Fully optimized for desktop, tablet, and mobile devices."
+    ]
+  },
+
+  {
+  "id": "popup10",
+  "title": "World Atlas",
+  "image": "./worldatlas.webp", 
+  "about": "An interactive world atlas built with React, designed to provide quick insights into countries around the globe.",
+  "link": "https://world-atlas-reactjs-proj.netlify.app",
+  "features": [
+    "Country Explorer – Browse and learn about each country's capital, population, and interesting facts.",
+    "Dynamic Routing – Smooth navigation between countries using React Router.",
+    "Clean Interface – Minimalistic and responsive UI optimized for all devices.",
+    "JSON Data Integration – Loads structured country data dynamically from a local JSON source."
+  ]
+},
+  {
+  "id": "popup8",
+  "title": "Movie Flix",
+  "image": "./MovieFlix.webp", 
+  "about": "A modern movie browsing web app using the OMDb API to explore films and TV shows.",
+  "link": "https://watch-movie-flix.netlify.app",
+  "features": [
+    "Live Movie Search – Instantly search for movies by title using real-time API requests.",
+    "Detailed Info – View poster, release year, type, and IMDb details for each result.",
+    "Pagination Support – Load multiple result pages for extended browsing.",
+    "Clean & Responsive UI – Built with React and Tailwind, optimized for all screen sizes."
+  ]
+},
+  {
+    "id": "popup6",
+    "title": "PokeGlance",
+    "image": "./pokeglance.webp",
+    "about": "A car rental website with a clean UI.",
+    "link": "https://pokeglance.netlify.app",
+
+    "features": [
+      "Easy Booking – Choose date, time, and location to book your car.",
+      "Vehicle Selection – Browse cars by type, brand, price, and features.",
+      "Secure Payments – Pay safely online with instant booking confirmation.",
+      "User Dashboard – View and manage all your bookings in one place.",
+      "24/7 Support – Get help anytime with customer service and roadside assistance."
+    ]
+  },
+  {
+    "id": "popup9",
+    "title": "Personal Portfolio",
+    "image": "./Portfolio.webp", 
+    "about": "A modern, responsive personal portfolio website showcasing my work, skills, and contact information.",
+    "link": "https://myportfolioprakash.netlify.app/",
+    "features": [
+      "Hero Section – Engaging introduction with name, role, and quick action buttons.",
+      "Project Highlights – Interactive project cards with modal popups detailing each project.",
+      "Service Section – Visual representation of offered services using clean cards and icons.",
+      "Responsive Design – Fully optimized layout for desktop, tablet, and mobile viewing.",
+      "Contact Form – Easily accessible contact form integrated with Web3Forms for form submission.",
+      "Smooth Animations – Enhanced user experience with AOS-based scroll animations."
+    ]
+  },
+  {
+  "id": "popup11",
+  "title": "Currency Converter",
+  "image": "./CurrencyConvertor.webp",
+  "about": "A modern currency converter app built with React and React Query for real-time exchange rate conversions.",
+  "link": "https://currency-converter-reactquery.netlify.app",
+  "features": [
+    "Live Exchange Rates – Convert between multiple currencies using up-to-date exchange data.",
+    "React Query Integration – Efficient API calls with caching, background updates, and refetch control.",
+    "Instant Conversion – Convert amounts instantly with minimal delay and error handling.",
+    "Responsive UI – Sleek and responsive interface adaptable to all screen sizes.",
+    "Error Handling – Graceful handling of API errors and invalid input to improve user experience."
+  ]
+},
+  {
+    "id": "popup1",
+    "title": "Keeper",
+    "image": "./keeper.webp",
+    "about": "Keeper where you can add and delete notes",
+    "link": "https://keeper-notescopy.netlify.app",
+    "features": [
+      "Save Notes – Easily create and save notes.",
+      "Edit Notes – Modify and update your notes anytime.",
+      "Delete Notes – Remove unwanted notes with a simple click.",
+      "Store Notes – Your notes persist even after reloads."
+    ]
+  },
+  
+  {
+    "id": "popup5",
+    "title": "Todo App",
+    "image": "./todo.webp",
+    "about": "A Todo App built with React.",
+    "link": "https://to-do-prakash.netlify.app",
+    "features": [
+      "Add Tasks – Users can input new tasks seamlessly.",
+      "Edit Tasks – Existing tasks can be modified to reflect changes.",
+      "Delete Tasks – Unwanted tasks can be removed effortlessly.",
+      "Mark as Completed – Tasks can be marked to indicate completion status.",
+      "Responsive Design – The application is fully responsive, ensuring usability across various devices."
+    ]
+  },
+  {
+    "id": "popup2",
+    "title": "Notes",
+    "image": "./Notes.webp",
+    "about": "A Notes website where you can write important points.",
+    "link": "https://prakash0196.github.io/Notes/",
+    "features": [
+      "Save Notes – Easily create and save notes.",
+      "Edit Notes – Modify and update your notes anytime.",
+      "Delete Notes – Remove unwanted notes with a simple click.",
+      "Store Notes – Your notes persist even after reloads."
+    ]
+  },
+  {
+    "id": "popup3",
+    "title": "Education Template",
+    "image": "./education_template.webp",
+    "about": "Frontend Design of an Education Template.",
+    "link": "https://6809fc8d319a79ddfcaa41d5--verdant-swan-f3f244.netlify.app",
+    "features": [
+      "Education Template Frontend Design"
+    ]
+  },
+  {
+    "id": "popup4",
+    "title": "Netflix Front-end Design",
+    "image": "./NetflixClone.webp",
+    "about": "Frontend Design of a Netflix clone.",
+    "link": "https://aquamarine-bublanina-bf8122.netlify.app",
+    "features": [
+      "Netflix Frontend Design"
+    ]
+  }
+]
