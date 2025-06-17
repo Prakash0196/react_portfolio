@@ -121,7 +121,7 @@ useEffect(() => {
           <div className="row blog-card py-5"  >
             {projects.map((project) => (
               <div className="col-lg-4 blog-item mb-3 blog-scale blog-card-scroll"  key={project.id}>
-                <div className="card" data-aos="fade-left" data-aos-duration="10000" data-aos-delay="400" >
+                <div className="card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400" >
                   <img src={project.image} style={{ width: "100%" }} className="img-fluid" alt="" />
                   <small className="px-3 py-3 font-weight-bold">Web Design</small>
                   <h5 className="font-weight-bold px-3">{project.title}</h5>
