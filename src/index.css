@@ -21,6 +21,34 @@
  /* end loader */
 
 
+.read-more-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  text-transform: capitalize;
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.7rem 1.2rem;
+  margin: 0.5rem 0 1rem 1rem;
+  background-color: rgb(74, 74, 204);
+  color: white;
+  border-radius: 2rem;
+  box-shadow: var(--btn-box-shadow);
+  border: 1px solid var(--white-color);
+  transition: all 0.3s linear;
+    line-height: normal; /* optional: removes vertical text squishing */
+
+
+  &:hover{
+    background-color: rgb(187, 187, 232);
+    color: black;
+  }
+}
+
+
+
 
 
 .contact-map {

@@ -24,7 +24,7 @@ const Popup = ({ project, onClose }) => {
             <li key={index}><strong>{feature}</strong></li>
           ))}
         </ul>
-        <a href={project.link} target="_blank" rel="noopener noreferrer">Go to the site</a>
+        <a href={project.link} target="_blank" className="read-more-btn" rel="noopener noreferrer">Go to the site</a>
       </div>
     </div>
   );
@@ -73,11 +73,9 @@ export const Blog = () => {
                   <small className="px-3 py-3 font-weight-bold">Web Design</small>
                   <h5 className="font-weight-bold px-3">{project.title}</h5>
                   <a
-                    className="font-weight-bold px-3 pb-4 popup-link"
+                    className="font-weight-bold px-3 pb-4 popup-link read-more-btn"
                     onClick={() => handleOpen(project.id)}
-                  >
-                    <u>Read More</u>
-                  </a>
+                  >Read More </a>
                 </div>
               </div>
             ))}
