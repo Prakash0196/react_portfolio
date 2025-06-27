@@ -76,14 +76,12 @@ footer {
   color: var(--white);
   font-weight: 500;
   letter-spacing: 0.1rem;
-  margin-bottom: 2.5rem;
   font-size: 1.4rem;
 }
 .footer-container a {
   display: block;
   text-decoration: none;
   color: #ccc;
-  margin-bottom: 1.5rem;
   font-size: 1rem;
 }
 .footer-container .content_1 p,

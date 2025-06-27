@@ -1,44 +1,43 @@
 
 
-// import React from "react";
-// import { FooterNav } from "./FooterNav";
+import React from "react";
+import { FooterNav } from "./FooterNav";
 
-// export const Footer = () => {
-//   return (
-//     <section className="footer">
-//       <footer className="py-3 my-4">
-//         <ul className="nav justify-content-center border-bottom pb-3 mb-3">
-//           <li className="nav-item">
-//             <FooterNav nav="Home" />
-//           </li>
-//           <li className="nav-item">
-//           <FooterNav nav="About" />
-//           </li>
-//           <li className="nav-item">
-//           <FooterNav nav="Services" />
-//           </li>
-//           <li className="nav-item">
-//           <FooterNav nav="Blog" />
-//           </li>
-//           <li className="nav-item">
-//           <FooterNav nav="Contact Me" />
-//           </li>
-//         </ul>
-//         <p style={{ textAlign: "center" }}>
-//           Copyright 2025 © By Prakash
-//         </p>
-//       </footer>
+export const Footer = () => {
+  return (
+    <section className="footer">
+      <footer className="py-3 my-4">
+        <ul className="nav justify-content-center border-bottom pb-3 mb-3">
+          <li className="nav-item"  >
+            <FooterNav nav="Home" />
+          </li>
+          <li className="nav-item"  >
+          <FooterNav nav="About" />
+          </li>
+          <li className="nav-item"  >
+          <FooterNav nav="Services"   />
+          </li>
+          <li className="nav-item"  >
+          <FooterNav nav="Blog" />
+          </li>
+          <li className="nav-item"  >
+          <FooterNav nav="Contact Me" />
+          </li>
+        </ul>
+        <p style={{ textAlign: "center" }}>
+          Copyright 2025 © By Prakash
+        </p>
+      </footer>
 
-//       <div className="container py-2 pb-0 mx-auto foot"></div>
-//     </section>
-//   );
-// };
-
-
+      <div className="container py-2 pb-0 mx-auto foot"></div>
+    </section>
+  );
+};
 
 
 
-// import React from "react";
+
+
 // import { FooterNav } from "./FooterNav";
 
 // export const Footer = () => {
@@ -121,54 +120,54 @@
 
 
 
-export const Footer = () => {
-  return (
-    <footer className="section-footer">
-      <div className="footer-container container">
-        <div className="content_1">
-          <p>
-            Welcome to My Portfolio,
-          </p>
-          <img src="https://i.postimg.cc/Nj9dgJ98/cards.png" alt="cards" />
-        </div>
-        <div className="content_2">
-          <h4>Menu</h4>
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Projects</a>
-          <a href="#">Contact</a>
-        </div>
-        <div className="content_3">
-          <h4>Experience</h4>
-          <a href="./contact.html">Contact Us</a>
+// export const Footer = () => {
+//   return (
+//     <footer className="section-footer">
+//       <div className="footer-container container">
+//         <div className="content_1">
+//           <p>
+//             Welcome to My Portfolio,
+//           </p>
+//           <img src="https://i.postimg.cc/Nj9dgJ98/cards.png" alt="cards" />
+//         </div>
+//         <div className="content_2">
+//           <h4>Menu</h4>
+//           <a href="#">Home</a>
+//           <a href="#">About</a>
+//           <a href="#">Services</a>
+//           <a href="#">Projects</a>
+//           <a href="#">Contact</a>
+//         </div>
+//         <div className="content_3">
+//           <h4>Experience</h4>
+//           <a href="./contact.html">Contact Us</a>
           
-          <a href="" target="_blank">
-            View Resume
-          </a>
-          <a href="" target="_blank">
-            Download Resume
-          </a>
-        </div>
-        <div className="content_4">
-          <h4>NEWSLETTER</h4>
-          <p>
-            Be the first to know about new
-            <br />
-            arrivals, sales & promos!
-          </p>
-          <div className="f-mail">
-            <input type="email" placeholder="Your Email" />
-            <i className="bx bx-envelope"></i>
-          </div>
-          <hr />
-        </div>
-      </div>
-      <div className="f-design">
-        <div className="f-design-txt">
-          <p>Design and Code by Prakash</p>
-        </div>
-      </div>
-    </footer>
-  );
-};
+//           <a href="" target="_blank">
+//             View Resume
+//           </a>
+//           <a href="" target="_blank">
+//             Download Resume
+//           </a>
+//         </div>
+//         <div className="content_4">
+//           <h4>NEWSLETTER</h4>
+//           <p>
+//             Be the first to know about new
+//             <br />
+//             arrivals, sales & promos!
+//           </p>
+//           <div className="f-mail">
+//             <input type="email" placeholder="Your Email" />
+//             <i className="bx bx-envelope"></i>
+//           </div>
+//           <hr />
+//         </div>
+//       </div>
+//       <div className="f-design">
+//         <div className="f-design-txt">
+//           <p>Design and Code by Prakash</p>
+//         </div>
+//       </div>
+//     </footer>
+//   );
+// };

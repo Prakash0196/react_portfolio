@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import projects from "./Api/Projects.json"
+import Aos from "aos";
 
 
 
@@ -32,6 +33,11 @@ const Popup = ({ project, onClose }) => {
 
 export const Blog = () => {
   const [activePopup, setActivePopup] = useState(null);
+
+    useEffect(()=>{
+      Aos.init({ duration: 1000 });
+  
+    },[])
 
   const handleOpen = (popupId) => {
     const project = projects.find((proj) => proj.id === popupId);
@@ -67,7 +73,7 @@ export const Blog = () => {
 
           <div className="row project-blog-card py-5">
             {projects.map((project) => (
-              <div className="col-lg-4 blog-item mb-3 blog-scale blog-card-scroll" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" key={project.id}>
+              <div className="col-lg-4 blog-item mb-3 blog-scale blog-card-scroll" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" key={project.id}>
                 <div className="card">
                   <img src={project.image} style={{ width: "100%" }} className="img-fluid" alt="" />
                   <small className="px-3 py-3 font-weight-bold">Web Design</small>

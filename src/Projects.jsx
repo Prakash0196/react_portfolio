@@ -8,7 +8,12 @@ import { useNavigate } from "react-router-dom";
 
 const Popup = ({ project, onClose }) => {
 
-  AOS.init({ duration: 2000 });
+
+  useEffect(()=>{
+    AOS.init({ duration: 2000 });
+
+  },[])
+
   
 
   if (!project) return null;
