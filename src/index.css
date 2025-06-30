@@ -363,11 +363,22 @@ nav ul li a.active {
   font-weight: 700;
 }
 
+#profession .Typewriter__wrapper {
+  color: #3F51B5 !important;
+}
+
+#profession .Typewriter__cursor {
+  color: #3F51B5 !important;
+}
+
+
 .main span{
   color: rgb(233, 20, 109);
 }
 
-
+.main #profession {
+  color: #3F51B5;
+}
 
 .main h6{
   font-size: 1.9rem;
@@ -376,6 +387,7 @@ nav ul li a.active {
   /* border-bottom: 3px solid ; */
   /* width: 90%; */
   position: relative;
+  color: #3F51B5;
 }
 
 
