@@ -373,19 +373,104 @@ nav ul li a.active {
   font-size: 1.9rem;
   text-transform: uppercase;
   line-height: 1;
-  border-bottom: 3px solid ;
-  width: 45%;
+  /* border-bottom: 3px solid ; */
+  /* width: 90%; */
   position: relative;
 }
 
-.main h6:after{
-  content: "Web_developer";
+
+
+.text-changer{
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  box-sizing: content-box;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+
+.intro-text{
+  margin-top: -2px;
+}
+
+.roles-container{
+  overflow: hidden;
+  position: relative;
+}
+
+.role{
+  display: block;
+  padding-left: 10px;
+  height: 100%;
+  animation: role-change 5s infinite;
+}
+@keyframes role-change {
+  0% {
+    transform: translateY(0%);
+  }
+  20% {
+    transform: translateY(0%);
+  }
+  25% {
+    transform: translateY(-100%);
+  }
+  45% {
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateY(-200%);
+  }
+  70% {
+    transform: translateY(-200%);
+  }
+  75% {
+    transform: translateY(-300%);
+  }
+  95% {
+    transform: translateY(-300%);
+  }
+  100% {
+    transform: translateY(-400%);
+  }
+}
+
+
+/* @keyframes role-change {
+  -10%{
+    transform: translateY(-102%);
+  }
+  25%{
+    transform: translateY(-100%);
+  }
+  45%{
+    transform: translateY(-202%);
+  }
+  65%{
+    transform: translateY(-200%);
+  }
+  85%{
+    transform: translateY(-302%);
+  }
+  100%{
+    transform: translateY(-300%);
+  }
+  85%{
+    transform: translateY(-402%);
+  }
+  100%{
+    transform: translateY(-400%);
+  }
+} */
+
+/* .main h6:after{
+  content: "Web_developement";
   width: 10%;
   line-height: 2;
   border-right: 0.3rem solid rgb(233, 20, 109);  
   color: rgb(233, 20, 109);
   position: absolute;
-  /* top: 16px; */
   top: 1px;
   left: 0;
   overflow: hidden;
@@ -397,12 +482,12 @@ nav ul li a.active {
     width: 0;
   }
   50%{
-    width: 100%;
+    width: 110%;
   }
   100%{
     width: 0;
   }
-}
+} */
 
 .main .bt1{
   height: 55px;
