@@ -8,7 +8,8 @@ import { Services } from "./Services"
 
 export const MainSection=()=>{
     return (
-        <><section className="main py-5">
+        <>
+        <section className="main py-5">
         <div className="container py-5">
             <div className="row py-5">
                 <div className="col-lg-6 py-5 mr-auto">
@@ -24,9 +25,9 @@ export const MainSection=()=>{
                 </div>
                 <h4> Connect on: </h4>
                 <div className="row py-3 gap-2">
-                    <MainButton  link="https://www.instagram.com/prakash_14_2002/" name="logo-instagram" />
-                    <MainButton  link="https://www.facebook.com/share/1B7aXAu4PP/" name="logo-facebook" />
                     <MainButton  link="https://www.linkedin.com/in/prakash-kumar-055203220/" name="logo-linkedin" />
+                    <MainButton  link="https://github.com/Prakash0196" name="logo-github" />
+                    <MainButton  link="https://x.com/PrakashK88963" name="logo-twitter" />
                 </div>
                 
             </div>
