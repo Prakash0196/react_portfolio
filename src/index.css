@@ -313,7 +313,7 @@ nav ul li a.active {
     display: none; /* Hide desktop menu on small */
   }
 
-  .menu{
+  .main{
     height:auto;
   }
   .ham-menu {
