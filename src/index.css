@@ -313,6 +313,9 @@ nav ul li a.active {
     display: none; /* Hide desktop menu on small */
   }
 
+  .menu{
+    height:auto;
+  }
   .ham-menu {
     display: block; /* Show hamburger button */
     margin-left: auto;
@@ -353,6 +356,7 @@ nav ul li a.active {
   background-size: cover;
   /* width: 100%;
   aspect-ratio: 1; */
+  height: 100vh;
   background-attachment: fixed;
   margin-top: 1.5rem;
   padding-bottom: 0;
