@@ -357,6 +357,7 @@ nav ul li a.active {
   /* width: 100%;
   aspect-ratio: 1; */
   height: 100vh;
+  height: 100dvh;
   background-attachment: fixed;
   margin-top: 1.5rem;
   padding-bottom: 0;
